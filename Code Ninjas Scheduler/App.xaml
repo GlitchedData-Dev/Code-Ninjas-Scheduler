@@ -1,0 +1,23 @@
+﻿<Application x:Class="Code_Ninjas_Scheduler.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Code_Ninjas_Scheduler"
+             xmlns:view="clr-namespace:Code_Ninjas_Scheduler.MVVM.View"
+             xmlns:viewModel="clr-namespace:Code_Ninjas_Scheduler.MVVM.ViewModel"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/Animations.xaml"/>
+                <ResourceDictionary Source="Theme/CalanderButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:ScheduleViewModel}">
+                <view:ScheduleView/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
+                <view:SettingsView/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
