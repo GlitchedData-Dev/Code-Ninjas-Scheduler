@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace Code_Ninjas_Scheduler.MVVM.View
+namespace CodeNinjasScheduler.MVVM.View
 {
     /// <summary>
     /// Interaction logic for SettingsView.xaml

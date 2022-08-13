@@ -1,5 +1,5 @@
-﻿using Code_Ninjas_Scheduler.MVVM.View;
-using Code_Ninjas_Scheduler;
+﻿using CodeNinjasScheduler.MVVM.View;
+using CodeNinjasScheduler;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -19,7 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Code_Ninjas_Scheduler.MVVM.View
+namespace CodeNinjasScheduler.MVVM.View
 {
     /// <summary>
     /// Interaction logic for ScheduleView28.xaml

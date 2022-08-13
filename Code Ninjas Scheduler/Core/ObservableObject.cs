@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Code_Ninjas_Scheduler.Core
+namespace CodeNinjasScheduler.Core
 {
     internal class ObservableObject : INotifyPropertyChanged
     {

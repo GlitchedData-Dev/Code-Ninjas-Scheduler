@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Code_Ninjas_Scheduler.Core
+namespace CodeNinjasScheduler.Core
 {
     internal class RelayCommand : ICommand
     {

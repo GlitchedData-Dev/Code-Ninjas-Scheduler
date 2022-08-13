@@ -1,7 +1,7 @@
-﻿using Code_Ninjas_Scheduler.Core;
+﻿using CodeNinjasScheduler.Core;
 using System;
 
-namespace Code_Ninjas_Scheduler.MVVM.ViewModel
+namespace CodeNinjasScheduler.MVVM.ViewModel
 {
     internal class MainViewModel : ObservableObject
     {

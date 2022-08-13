@@ -3,9 +3,14 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>CodeNinjasScheduler</RootNamespace>
+    <RootNamespace>Code_Ninjas_Scheduler</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Title>CodeNinjas Scheduler</Title>
+    <Authors>GlitchedData-Dev, Spud</Authors>
+    <Company>JHAT</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +19,10 @@
     <None Remove="Images\Logo.png" />
     <None Remove="Images\MenuButton.png" />
     <None Remove="Images\Tick.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\favicon.ico" />
   </ItemGroup>
 
   <ItemGroup>

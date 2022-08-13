@@ -1,10 +1,10 @@
-﻿using Code_Ninjas_Scheduler.MVVM.View;
+﻿using CodeNinjasScheduler.MVVM.View;
 using System;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Interop;
 
-namespace Code_Ninjas_Scheduler
+namespace CodeNinjasScheduler
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
