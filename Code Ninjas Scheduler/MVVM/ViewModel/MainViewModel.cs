@@ -1,4 +1,5 @@
 ﻿using Code_Ninjas_Scheduler.Core;
+using System;
 
 namespace Code_Ninjas_Scheduler.MVVM.ViewModel
 {
@@ -9,6 +10,8 @@ namespace Code_Ninjas_Scheduler.MVVM.ViewModel
         public RelayCommand MenuToggleCommand { get; set; }
 
         public ScheduleViewModel ScheduleVM { get; set; }
+        public ScheduleViewModel28 ScheduleVM28 { get; set; }
+        public ScheduleViewModel30 ScheduleVM30 { get; set; }
         public SettingsViewModel SettingsVM { get; set; }
 
         private object _currentView;
@@ -26,12 +29,22 @@ namespace Code_Ninjas_Scheduler.MVVM.ViewModel
         public MainViewModel()
         {
             ScheduleVM = new ScheduleViewModel();
+            ScheduleVM28 = new ScheduleViewModel28();
+            ScheduleVM30 = new ScheduleViewModel30();
             SettingsVM = new SettingsViewModel();
-            CurrentView = ScheduleVM;
+            
+            int daysInMonth = DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month);
+
+            if (daysInMonth == 31) { CurrentView = ScheduleVM; }
+            else if(daysInMonth == 30) { CurrentView = ScheduleVM30; }
+            else { CurrentView = ScheduleVM28; }
+
 
             SchduleVMCommand = new RelayCommand(o =>
             {
-                CurrentView = ScheduleVM;
+                if (daysInMonth == 31) { CurrentView = ScheduleVM; }
+                else if (daysInMonth == 30) { CurrentView = ScheduleVM30; }
+                else { CurrentView = ScheduleVM28; }
             });
 
             SettingsVMCommand = new RelayCommand(o =>

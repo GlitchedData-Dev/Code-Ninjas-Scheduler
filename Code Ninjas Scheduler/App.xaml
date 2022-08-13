@@ -15,6 +15,12 @@
             <DataTemplate DataType="{x:Type viewModel:ScheduleViewModel}">
                 <view:ScheduleView/>
             </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:ScheduleViewModel28}">
+                <view:ScheduleView28/>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:ScheduleViewModel30}">
+                <view:ScheduleView30/>
+            </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:SettingsViewModel}">
                 <view:SettingsView/>
             </DataTemplate>
