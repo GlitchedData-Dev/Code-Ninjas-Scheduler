@@ -45,7 +45,7 @@
                 </Setter.Value>
             </Setter>
 
-            <Setter Property="Background" Value="#171A2C"/>
+            <Setter Property="Background" Value="#1A1A33"/>
             <Setter Property="BorderThickness" Value="0"/>
         </Style.Setters>
         <Style.Triggers>

@@ -18,7 +18,7 @@
         <viewModel:MainViewModel/>
     </Window.DataContext>
 
-    <Border Background="#0F0E1B">
+    <Border Background="#141422">
         <Grid Background="Transparent">
             <Viewbox VerticalAlignment="Top">
                 <Grid Height="30" Background="Transparent">
