@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="SenderEmail" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">codeninjasscheduler@hotmail.com</Value>
     </Setting>
     <Setting Name="SenderPassword" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">imreallylazy!</Value>
     </Setting>
     <Setting Name="SenderName" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

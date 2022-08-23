@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CodeNinjasScheduler {
+namespace Code_Ninjas_Scheduler {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -25,7 +25,7 @@ namespace CodeNinjasScheduler {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("codeninjasscheduler@hotmail.com")]
         public string SenderEmail {
             get {
                 return ((string)(this["SenderEmail"]));
@@ -37,7 +37,7 @@ namespace CodeNinjasScheduler {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("imreallylazy!")]
         public string SenderPassword {
             get {
                 return ((string)(this["SenderPassword"]));

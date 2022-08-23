@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using Code_Ninjas_Scheduler;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace CodeNinjasScheduler.MVVM.View
